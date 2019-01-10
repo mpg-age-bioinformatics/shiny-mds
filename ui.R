@@ -24,7 +24,7 @@ shinyUI( fluidPage(
                                                                                     'semicolon-separated' = ';'), inline = TRUE),
           checkboxInput("header", "Header", TRUE),
           selectInput("column", "Select labels column", choices = NULL,selected=NULL),
-          helpText(a(href = "https://github.com/mpg-age-bioinformatics/shiny-heatmap/blob/master/heatmap_example.csv", "Example input")),
+          helpText(a(href = "https://datashare.mpcdf.mpg.de/s/GLT9ZI97p4XsMGZ/download", "Example input")),
           hr(),
           numericInput("cluster", "Number of clusters", 1),
           checkboxInput("names", "Names", FALSE),
